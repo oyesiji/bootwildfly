@@ -18,4 +18,11 @@ public class HelloWildFlyController {
   public String sayHi() {
     return ("Hello, SpringBoot on Wildfly 1988, say Hi" + new Date().toString());
   }
+
+
+
+  @RequestMapping("seun")
+  public String saySeun() {
+    return ("Hello,Seun" + new Date().toString());
+  }
 }
