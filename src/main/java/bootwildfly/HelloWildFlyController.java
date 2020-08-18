@@ -1,5 +1,6 @@
 package bootwildfly;
 
+import java.util.Date;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,6 +16,6 @@ public class HelloWildFlyController {
 
   @RequestMapping("hi")
   public String sayHi() {
-    return ("Hello, SpringBoot on Wildfly 1988, say Hi");
+    return ("Hello, SpringBoot on Wildfly 1988, say Hi" + new Date().toString());
   }
 }
