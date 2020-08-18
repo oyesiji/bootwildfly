@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWildFlyController {
 
 
-    @RequestMapping("hello")
-    public String sayHello(){
-        return ("Hello, SpringBoot on Wildfly");
-    }
+  @RequestMapping("hello")
+  public String sayHello() {
+    return ("Hello, SpringBoot on Wildfly 1988");
+  }
 }
